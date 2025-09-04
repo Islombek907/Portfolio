@@ -18,7 +18,7 @@
     max-width: 1446px;
     width: 100%;
     margin: auto;
-    padding: 0 15px;
+    padding: 0 30px;
   }
   
   /* Темы */
@@ -58,13 +58,12 @@
       color: var(--secondary-text-color);
     }
   }
-  
   .about__me {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-top: 23px;
-  
     .first-name,
     .last-name {
       font-weight: 700;
@@ -72,22 +71,18 @@
       text-transform: uppercase;
       color: #828282;
     }
-  
     .last-name {
       color: var(--text-color);
     }
-  
     .nav-links {
       display: flex;
       gap: 51px;
-  
       a {
         font-weight: 700;
         font-size: 26px;
         color: var(--text-color);
       }
     }
-  
     .social-contact {
       display: flex;
       align-items: center;
@@ -303,7 +298,6 @@
       }
     }
   }
-  
   .about-me {
     display: flex;
     align-items: center;
@@ -311,7 +305,6 @@
     margin-top: 237px;
     margin-bottom: 227px;
     gap: 114px;
-  
     .about__me-left {
       p {
         font-size: 29px;
@@ -320,7 +313,6 @@
         width: 100%;
       }
     }
-  
     .cards {
       display: flex;
       align-items: center;
@@ -362,44 +354,37 @@
     display: flex;
     background: var(--skills-bg);
     height: 705px;
-  
     .skills__title {
       margin-bottom: 131px;
     }
-  
     .skills-list {
       display: flex;
       gap: 56px;
       flex-wrap: wrap;
-  
       .scss {
         width: 125px;
         height: 125px;
       }
-  
       .github {
         width: 125px;
         height: 125px;
       }
-  
       .zustand {
         width: 155px;
         height: 125px;
         object-fit: cover;
       }
-  
       .figma {
         width: 125px;
         height: 125px;
       }
     }
   }
-  
   .projects {
     background: var(--bg-color);
     padding: 20px 0;
     text-align: center;
-  
+    width: 100%;
     .title {
       font-weight: 700;
       font-size: 49px;
@@ -407,7 +392,7 @@
       margin-bottom: 20px;
       text-align: left;
       margin: 109px 141px 82px;
-  
+      width: max-content;
       span {
         color: var(--secondary-text-color);
       }
@@ -416,7 +401,7 @@
     .swiper {
       padding: 0 15px;
       position: relative;
-      min-width: 998px;
+      width: 100%;
       margin-bottom: 124px;
   
       .swiper-wrapper {
@@ -440,19 +425,16 @@
           overflow: hidden;
           width: 489px;
           height: 361px;
-  
           a {
             display: block;
             width: 100%;
             height: 100%;
           }
-  
           img {
             width: 100%;
             height: 100%;
             object-fit: cover;
           }
-  
           p {
             position: absolute;
             bottom: 10px;
@@ -482,23 +464,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-  
         &:hover {
           background: rgba(112, 255, 0, 0.5);
         }
-  
         &::after {
           font-size: 20px;
           font-weight: bold;
         }
       }
-  
       .swiper-button-prev {
         left: 10px;
       }
-  
       .swiper-button-next {
         right: 10px;
       }
     }
   }
+@import url('./media.scss');

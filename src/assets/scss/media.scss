@@ -1,0 +1,123 @@
+@media (max-width: 1160px) {
+  .about-me {
+    flex-wrap: wrap !important;
+  }
+
+  .about__me {
+    .nav-links {
+      gap: 20px !important;
+    }
+
+    .social-contact {
+      gap: 0 !important;
+    }
+
+    .email {
+      margin-right: 15px
+    }
+  }
+}
+
+@media (max-width: 1059px) {
+  .about__me {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .welcome-section {
+    margin-top: 50px !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center !important;
+
+    .welcome-left .name {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper .swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    .welcome-left {
+      .name {
+        font-size: 68px !important;
+      }
+    }
+  }
+
+  .skills {
+    height: 100% !important;
+
+    .skills__title {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 632px) {
+  .welcome-section {
+    .welcome-left {
+      .name {
+        font-size: 58px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 528px) {
+  .welcome-section {
+    .avatar {
+      width: 100% !important;
+    }
+    .welcome-left {
+      .name {
+        font-size: 48px !important;
+      }
+    }
+    .experience {
+      margin-bottom: 15px ;
+    }
+  }
+}
+@media (max-width: 465px) {
+  .first-name,
+  .last-name {
+    font-size: 40px !important;
+  }
+  .welcome-section {
+    .welcome-left {
+      .name {
+        font-size: 38px !important;
+      }
+    }
+  }
+  .about-me {
+      margin-top: 50px !important;
+  }
+  .projects .title {
+    margin: 20px !important;
+  }
+}
+@media (max-width: 375px) {
+  .about__me {
+    .first-name, .last-name {
+      font-size: 30px !important;
+    }
+  }
+  .welcome-left {
+    .intro-text {
+      font-size: 29px !important;
+    }
+    .highlight {
+      font-size: 28px !important;
+    }
+  }
+}

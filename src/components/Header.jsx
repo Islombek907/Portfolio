@@ -32,7 +32,7 @@ const Header = () => {
             <img src="/git.svg" alt="" />
           </a>
           <a className='email' href="mailto:islomwebdev7@gmail.com" target="_blank">
-            <i class="fa-regular fa-envelope"></i>
+            <i className="fa-regular fa-envelope"></i>
             Contact me
           </a>
           <button onClick={toggleTheme} className={`theme-toggle ${theme}`}>
