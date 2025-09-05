@@ -111,6 +111,17 @@
     .first-name, .last-name {
       font-size: 30px !important;
     }
+    .social-contact {
+      flex-direction: column;
+      gap: 20px !important;
+    }
+  }
+  .title {
+    text-align: center;
+  }
+  .about__me-left p {
+      font-size: 19px !important;
+      text-align: center;
   }
   .welcome-left {
     .intro-text {
@@ -119,5 +130,17 @@
     .highlight {
       font-size: 28px !important;
     }
+  }
+  .skills__title {
+    text-align: center;
+    margin-bottom: 25px !important;
+  }
+  .skills-list {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .role {
+    text-align: center;
   }
 }
